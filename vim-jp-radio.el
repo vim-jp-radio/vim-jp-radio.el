@@ -27,6 +27,7 @@
 
 (require 'podcaster)
 
+;;;###autoload
 (defun vim-jp-radio ()
   "Configure `podcaster' for `vim-jp-radio'."
   (interactive)
