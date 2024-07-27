@@ -29,7 +29,7 @@
 
 ;;;###autoload
 (defun vim-jp-radio ()
-  "Configure `podcaster' for `vim-jp-radio'."
+  "Play `vim-jp-radio'."
   (interactive)
   (let ((podcaster-feeds-urls '("https://feeds.megaphone.fm/TFM9640066968")))
     (podcaster)))
