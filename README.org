@@ -3,6 +3,13 @@ Client for [[https://audee.jp/program/show/300008578][vim-jp-radio]].
 
 [[assets/screenshot.png]]
 
+* Install
+Install via [[https://github.com/conao3/leaf.el][leaf.el]].
+#+begin_src elisp
+(leaf vim-jp-radio
+  :vc (:url "https://github.com/vim-jp-radio/vim-jp-radio.el"))
+#+end_src>
+
 * Usage
 - =M-x vim-jp-radio= :: List vim-jp-radio episodes, select it to play.
 - =M-x vim-jp-radio-stop= :: Stop playing.
