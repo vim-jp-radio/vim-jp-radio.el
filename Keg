@@ -1,0 +1,7 @@
+;; Keg
+
+(source gnu melpa)
+
+(package
+  (vim-jp-radio
+   (recipe . (vim-jp-radio :fetcher github :repo "vim-jp-radio/vim-jp-radio.el"))))
