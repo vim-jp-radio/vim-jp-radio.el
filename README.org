@@ -1,1 +1,13 @@
 * vim-jp-radio.el
+Client for [[https://audee.jp/program/show/300008578][vim-jp-radio]].
+
+[[assets/screenshot.png]]
+
+* Usage
+- =M-x vim-jp-radio= :: List vim-jp-radio episodes, select it to play.
+- =M-x vim-jp-radio-stop= :: Stop playing.
+- =M-x vim-jp-radio-pause= :: Pause playing.
+- =M-x vim-jp-radio-resume= :: Resume playing.
+
+* Dependency
+- [[https://github.com/lujun9972/podcaster][podcaster]]
